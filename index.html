@@ -4,9 +4,14 @@
   <meta charset="UTF-8">
   <title>Chatbot Éducation</title>
 
-  <!-- Script Dialogflow Messenger v4 (plus stable) -->
+   <!-- Intégration Dialogflow CX Messenger -->
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
+  <df-messenger
+    chat-title="ChatbotEducation"
+    agent-id="47646289-4bb9-4948-9c13-14cf0667d3fd"
+    language-code="fr"
+  ></df-messenger>
+</body>
   
   <!-- Style simple -->
   <style>
@@ -45,12 +50,4 @@
   <h1>🎓 Bienvenue sur le Chatbot Éducation</h1>
   <p>Posez vos questions sur l’intelligence artificielle et l’apprentissage 📚</p>
 
-  <!-- Chatbot Dialogflow Messenger -->
-  <df-messenger
-    chat-title="ChatbotEducation"
-    agent-id="47646289-4bb9-4948-9c13-14cf0667d3fd"
-    language-code="fr">
-  </df-messenger>
-
-</body>
 </html>
